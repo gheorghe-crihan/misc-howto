@@ -1,4 +1,4 @@
-#Decrypting the gusdrive.cry
+# Decrypting the gusdrive.cry
 
 Simple XOR encryption, byte swapped.
 
@@ -41,7 +41,7 @@ $ python3 ./xor-decrypt.py -i "GUSDRIVE.CRY" -o “GUSDRIVE.SWAB” -k "*-" -d
 
 Swapping the bytes back:
 ```sh
-dd if=GUSDRIVE.SWAB of=GUSDRIVE.ASM conv=swab
+$ dd if=GUSDRIVE.SWAB of=GUSDRIVE.ASM conv=swab
 ```
 
 The original archive here:
