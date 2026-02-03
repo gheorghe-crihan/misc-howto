@@ -51,3 +51,4 @@ https://github.com/gheorghe-crihan/misc-howto/blob/main/GUSDRV2.ZIP
 The decrypted source code here:
 https://github.com/gheorghe-crihan/misc-howto/blob/main/GUSDRIVE.ASM
 
+uav16060 [at] mail.ru
