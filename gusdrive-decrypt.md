@@ -5,7 +5,7 @@ Simple XOR encryption, byte swapped.
 It's almost obvious from the way the cyphertext is structured. One could count
 the symbol frequencies and observe the most frequent ones CR/LF and space.
 That is, the text is DOS ASCII Assembly language source file, so
-`0xD`, `0xA` and `0x20`.
+`0xD`, `0xA` and `0x20` should be the most frequent symbols.
 
 As the author has mentioned, there should be more than 1400 of CR/LFs.
 Even more spaces, about x7 that many, given the frequency of characters in
