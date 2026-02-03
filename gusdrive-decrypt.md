@@ -11,8 +11,9 @@ As the author has mentioned, there should be more than 1400 of CR/LFs.
 Even more spaces, about x7 that many, given the frequency of characters in
 an x86 assembly source text.
 Besides, in the old times, the uppercase characters were most commonly used
-for assembly instructions in INTEL syntax. The instruction character set was
-somewhat limited and with very pronounced frequency patterns.
+for assembly instructions in INTEL syntax (turned to be a wrong assumption).
+The instruction character set was somewhat limited and with very pronounced
+frequency patterns.
 
 One could count the frequencies using the following simple script:
 
