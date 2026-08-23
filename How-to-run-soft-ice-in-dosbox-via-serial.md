@@ -80,6 +80,8 @@ z:\si\s-ice.exe
 z:\si\mode.com com1 baud=9600 stop=1 data=8 parity=N
 # Verify with
 z:\si\mode.com BAUDHARD=1
+# The traditional mode syntax is:
+# MODE COM1:96,N,8,1
 # Test serial terminal
 echo Hi > com1
 ```
