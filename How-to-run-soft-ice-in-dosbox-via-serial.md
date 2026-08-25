@@ -110,3 +110,26 @@ gtelnet localhost 1833
 ```
 
 No virtual PTY redirector needed.
+
+# Working solution
+Use my macports-custom repo DOSBox-X-gdbserver to built
+the gdb support.
+NOTE: though the port itself is broken, it creates
+an environment to build the SDL1 old MacOS binary that
+works with IDA debugger.
+
+The `dosbox.conf` changes needed:
+```ini
+[dosbox]
+...
+gdbserver = true
+gdbserver port = 1234 
+qmpserver = true
+qmpserver port = 4444
+...
+```
+Links of interest:
+* https://github.com/lab313ru
+  * https://github.com/lab313ru/dsbxida
+  * https://github.com/lab313ru/idados_dosbox
+* https://github.com/joncampbell123/dosbox-x/issues/752
